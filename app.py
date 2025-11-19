@@ -1,4 +1,8 @@
+
 # ========================= FINAL + MONGODB + VISUAL TRACKING (GREEN = COUNTED) =========================
+import os
+os.environ["OPENCV_VIDEOIO_PRIORITY_MSMF"] = "0"
+
 import cv2
 import streamlit as st
 from ultralytics import YOLO
