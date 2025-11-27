@@ -1,0 +1,9 @@
+[server]
+enableXsrfProtection = false
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[server.webkit]
+permissionsPolicy = "microphone=(), camera=(), battery=(), geolocation=()"
